@@ -49,7 +49,7 @@ def fibonacci(n):
     prev_num = 0
     next_num = 1
     fib_sum = 1
-    for i in range(2, n):
+    for i in range(1, n):
         fib_sum = add(prev_num, next_num)
         prev_num = next_num
         next_num = fib_sum
